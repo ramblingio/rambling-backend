@@ -40,7 +40,7 @@ sourceSets {
 }
 
 bootRun {
-  systemProperties = System.properties
+    systemProperties = System.properties
 }
 
 dependencies {
