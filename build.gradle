@@ -38,12 +38,16 @@ sourceSets {
 }
 
 bootRun {
-
+  systemProperties = System.properties
 }
+
 dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
     compile "org.springframework.boot:spring-boot-starter-web"
     compile "org.springframework.boot:spring-boot-starter-actuator"
     compile "org.springframework.boot:spring-boot-starter-tomcat"
+}
+versioneye {
+    dependencies='transitive'
 }
 
