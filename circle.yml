@@ -10,4 +10,5 @@ deployment:
     production:
         branch: master
         commands:
-            - ./deploy.sh
+            - git push dokku@rambling.io:api $CIRCLE_SHA1:master
+
