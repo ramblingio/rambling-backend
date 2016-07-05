@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: rambling-api
+
+server:
+  port: ${PORT:8000}
+
+eureka:
+  server:
+    hostname: ${EUREKAHOST:localhost}
+  client:
+    service-url:
+      default-zone: http://${eureka.server.hostname}/eureka
