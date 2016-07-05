@@ -1,5 +1,5 @@
 [![][Dependency Status img]][Dependency Status]
-[![][Build Status img][Build status]
+[![][Build Status img]]
 # rambling-backend
 
 Backend + User management for the rambling website
