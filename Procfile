@@ -1,1 +1,1 @@
-web: java -jar build/libs/rambling-backend.jar
+web: java -Dserver.port=$PORT -jar build/libs/rambling-backend.jar
