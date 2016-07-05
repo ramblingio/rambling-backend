@@ -5,3 +5,9 @@ machine:
 test:
     post:
         - ./gradlew versionEyeUpdate
+
+deployment:
+    production:
+        branch: master
+        commands:
+            - ./deploy.sh
