@@ -3,7 +3,7 @@ spring:
     name: rambling-api
 
 server:
-  port: ${PORT:8000}
+  port: ${PORT:8080}
 
 eureka:
   server:
