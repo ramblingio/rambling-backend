@@ -2,6 +2,9 @@ spring:
   application:
     name: rambling-api
 
+management:
+  context-path: "/admin"
+
 server:
   port: ${PORT:8080}
 
