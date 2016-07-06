@@ -1,6 +1,6 @@
 buildscript {
     ext.kotlin_version = '1.0.3'
-    ext.springboot_version = "1.4.0-RC1"
+    ext.springboot_version = "1.4.0.RC1"
 
     repositories {
         jcenter()
@@ -12,7 +12,7 @@ buildscript {
 
     dependencies {
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
-        classpath("org.springframework.boot:spring-boot-gradle-plugin:1.4.0.BUILD-SNAPSHOT")
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:$springboot_version")
     }
 }
 plugins {
