@@ -3,7 +3,7 @@ eureka:
     hostname: ${EUREKAHOST:localhost}
   client:
     serviceUrl:
-      defaultZone: https://${eureka.server.hostname}/eureka/
+      defaultZone: http://${eureka.server.hostname}/eureka/
 
 spring:
   application:
